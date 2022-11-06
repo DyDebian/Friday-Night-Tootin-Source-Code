@@ -1,0 +1,50 @@
+{
+	"storyName": "double trouble",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Goo",
+			"disco-and-pico",
+			[
+				186,
+				193,
+				255
+			]
+		],
+		[
+			"Dubs",
+			"disco-and-pico",
+			[
+				186,
+				193,
+				255
+			]
+		],
+		[
+			"Stardust",
+			"disco-and-pico",
+			[
+				186,
+				193,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "week4"
+}

@@ -1,0 +1,59 @@
+{
+	"storyName": "techno mom's techno party",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Naywayup",
+			"mom-tootin",
+			[
+				154,
+				106,
+				241
+			]
+		],
+		[
+			"Inaynou",
+			"mom-tootin",
+			[
+				154,
+				106,
+				241
+			]
+		],
+		[
+			"Dubs2",
+			"mom-tootin",
+			[
+				154,
+				106,
+				241
+			]
+		],
+		[
+			"Super-star",
+			"mom-tootin",
+			[
+				154,
+				106,
+				241
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week7",
+	"hiddenUntilUnlocked": false
+}

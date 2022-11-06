@@ -1,0 +1,68 @@
+{
+	"storyName": "the fallen panda",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"evil-panda-theme",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		],
+		[
+			"slide",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		],
+		[
+			"paradise",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		],
+		[
+			"evil-panda-theme-phase-2",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		],
+		[
+			"crunch",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "week8"
+}

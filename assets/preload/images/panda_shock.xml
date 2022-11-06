@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="panda_shock.png"><SubTexture name="Panda panda impressed0000" x="0" y="0" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0001" x="447" y="0" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0002" x="894" y="0" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0003" x="1341" y="0" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0004" x="1788" y="0" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0005" x="0" y="502" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0006" x="447" y="502" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0007" x="894" y="502" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0008" x="1341" y="502" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0009" x="1788" y="502" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0010" x="0" y="1004" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0011" x="447" y="1004" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0012" x="894" y="1004" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0013" x="1341" y="1004" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0014" x="1788" y="1004" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0015" x="0" y="1506" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0016" x="447" y="1506" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0017" x="894" y="1506" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0018" x="1341" y="1506" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0019" x="1788" y="1506" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0020" x="0" y="2008" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0021" x="447" y="2008" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0022" x="894" y="2008" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0023" x="1341" y="2008" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0024" x="1788" y="2008" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0025" x="0" y="2510" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0026" x="447" y="2510" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0027" x="894" y="2510" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+<SubTexture name="Panda panda impressed0028" x="1341" y="2510" width="447" height="502" frameX="0" frameY="0" frameWidth="447" frameHeight="502" />
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ArrowEVILNOTE_assets.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="161" height="161"/>
+	<SubTexture name="down confirm0000" x="161" y="0" width="211" height="207"/>
+	<SubTexture name="green0000" x="372" y="0" width="160" height="162"/>
+	<SubTexture name="left confirm0000" x="532" y="0" width="207" height="211"/>
+	<SubTexture name="purple0000" x="739" y="0" width="156" height="166"/>
+	<SubTexture name="red0000" x="895" y="0" width="163" height="162"/>
+	<SubTexture name="right confirm0000" x="1058" y="0" width="207" height="211"/>
+	<SubTexture name="up confrim0000" x="1265" y="0" width="211" height="207"/>
+</TextureAtlas>

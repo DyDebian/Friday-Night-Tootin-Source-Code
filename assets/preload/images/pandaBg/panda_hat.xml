@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="panda_hat.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pandtender0000" x="0" y="0" width="175" height="143" frameX="0" frameY="-3" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0001" x="175" y="0" width="175" height="143" frameX="0" frameY="-3" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0002" x="350" y="0" width="175" height="143" frameX="0" frameY="-3" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0003" x="525" y="0" width="175" height="144" frameX="0" frameY="-2" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0004" x="700" y="0" width="175" height="145" frameX="0" frameY="-1" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0005" x="0" y="145" width="175" height="145" frameX="0" frameY="-1" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0006" x="175" y="145" width="175" height="145" frameX="0" frameY="-1" frameWidth="175" frameHeight="146"/>
+	<SubTexture name="pandtender0007" x="350" y="145" width="175" height="146"/>
+	<SubTexture name="pandtender0008" x="525" y="145" width="175" height="146"/>
+	<SubTexture name="pandtender0009" x="700" y="145" width="175" height="146"/>
+	<SubTexture name="pandtender0010" x="0" y="291" width="175" height="146"/>
+	<SubTexture name="pandtender0011" x="175" y="291" width="175" height="146"/>
+	<SubTexture name="pandtender0012" x="350" y="291" width="175" height="146"/>
+	<SubTexture name="pandtender0013" x="525" y="291" width="175" height="146"/>
+</TextureAtlas>

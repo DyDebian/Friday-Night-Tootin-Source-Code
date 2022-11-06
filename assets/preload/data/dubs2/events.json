@@ -1,0 +1,37 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "techno",
+		"player1": "bf_tootin",
+		"player2": "mom_tootinv2",
+		"player3": "disco",
+		"player4": null,
+		"usePlayer3": true,
+		"usePlayer4": null,
+		"player4Layer": null,
+		"events": [
+			[
+				85250,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.3"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bf2": null,
+		"bpm": 180,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"player3Layer": "behind the opponent",
+		"useBf2": null,
+		"song": "Dubs2",
+		"bf2Layer": null
+	}
+}

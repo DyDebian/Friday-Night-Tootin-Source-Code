@@ -1,0 +1,201 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "stage",
+		"player1": "bf",
+		"player2": "pico",
+		"player3": null,
+		"usePlayer3": null,
+		"events": [
+			[
+				25945.9459459459,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				26432.4324324324,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				26918.9189189189,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				27648.6486486486,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				28864.8648648649,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				29837.8378378378,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				30810.8108108108,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				31945.9459459459,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				67459.4594594595,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				68027.0270270271,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				68675.6756756757,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				69567.5675675676,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				70378.3783783784,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				71351.3513513514,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			],
+			[
+				72324.3243243244,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				73459.4594594595,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				74351.3513513514,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.6"
+					]
+				]
+			],
+			[
+				74675.6756756757,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.6"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 185,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"player3Layer": null,
+		"song": "Dundididun"
+	}
+}

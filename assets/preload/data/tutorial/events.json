@@ -1,0 +1,89 @@
+{
+	"song": {
+		"speed": 1.6,
+		"stage": "stage",
+		"player1": "bf_tootin",
+		"player2": "gf",
+		"player3": null,
+		"events": [
+			[
+				18000,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				18600,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				18900,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				27600,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				28200,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				46800,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			],
+			[
+				47400,
+				[
+					[
+						"Hey!",
+						"b",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "null",
+		"bpm": 100,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "Tutorial"
+	}
+}

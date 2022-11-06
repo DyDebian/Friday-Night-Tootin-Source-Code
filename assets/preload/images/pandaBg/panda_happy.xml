@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="panda_happy.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="panda0000" x="0" y="0" width="389" height="561" frameX="-6" frameY="-21" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0001" x="0" y="0" width="389" height="561" frameX="-6" frameY="-21" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0002" x="389" y="0" width="388" height="568" frameX="-4" frameY="-14" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0003" x="389" y="0" width="388" height="568" frameX="-4" frameY="-14" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0004" x="777" y="0" width="378" height="572" frameX="-2" frameY="-11" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0005" x="777" y="0" width="378" height="572" frameX="-2" frameY="-11" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0006" x="1155" y="0" width="357" height="583" frameX="-1" frameY="0" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0007" x="1155" y="0" width="357" height="583" frameX="-1" frameY="0" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0008" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0009" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0010" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0011" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0012" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+	<SubTexture name="panda0013" x="1512" y="0" width="356" height="582" frameX="0" frameY="-1" frameWidth="395" frameHeight="583"/>
+</TextureAtlas>

@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Alive",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
+			"Shamallah",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
+			"Malware",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
+			"Wetella",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
+			"Ransomware",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "guitar madness",
+	"weekName": "week_3",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

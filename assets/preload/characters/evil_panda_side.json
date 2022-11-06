@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				218,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				270,
+				185
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				285,
+				279
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				206,
+				168
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				220,
+				190
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/evil_panda",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "evil-panda",
+	"flip_x": true,
+	"healthbar_colors": [
+		254,
+		20,
+		20
+	],
+	"camera_position": [
+		-440,
+		-90
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

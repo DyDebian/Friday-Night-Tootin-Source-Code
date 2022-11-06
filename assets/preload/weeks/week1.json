@@ -1,0 +1,50 @@
+{
+	"storyName": "disco fever",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"late-night-disco",
+			"disco",
+			[
+				82,
+				36,
+				138
+			]
+		],
+		[
+			"stump-it",
+			"disco",
+			[
+				82,
+				36,
+				138
+			]
+		],
+		[
+			"miame",
+			"disco",
+			[
+				82,
+				36,
+				138
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week_1",
+	"hiddenUntilUnlocked": false
+}

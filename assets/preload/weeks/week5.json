@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Bad",
+			"evil-bf-tootin",
+			[
+				162,
+				38,
+				66
+			]
+		],
+		[
+			"Solitude",
+			"evil-bf-tootin",
+			[
+				162,
+				38,
+				66
+			]
+		],
+		[
+			"Scased2",
+			"evil-bf-tootin",
+			[
+				162,
+				38,
+				66
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "clone wars",
+	"weekName": "week5",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

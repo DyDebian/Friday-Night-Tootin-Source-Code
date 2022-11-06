@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="panda_sit.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pandasit0000" x="0" y="0" width="126" height="153" frameX="0" frameY="-3" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0001" x="0" y="0" width="126" height="153" frameX="0" frameY="-3" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0002" x="126" y="0" width="126" height="153" frameX="0" frameY="-3" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0003" x="126" y="0" width="126" height="153" frameX="0" frameY="-3" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0004" x="252" y="0" width="126" height="154" frameX="0" frameY="-2" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0005" x="252" y="0" width="126" height="154" frameX="0" frameY="-2" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0006" x="378" y="0" width="126" height="155" frameX="0" frameY="-1" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0007" x="378" y="0" width="126" height="155" frameX="0" frameY="-1" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0008" x="0" y="155" width="126" height="156"/>
+	<SubTexture name="pandasit0009" x="0" y="155" width="126" height="156"/>
+	<SubTexture name="pandasit0010" x="0" y="155" width="126" height="156"/>
+	<SubTexture name="pandasit0011" x="0" y="155" width="126" height="156"/>
+	<SubTexture name="pandasit0012" x="378" y="0" width="126" height="155" frameX="0" frameY="0" frameWidth="126" frameHeight="156"/>
+	<SubTexture name="pandasit0013" x="378" y="0" width="126" height="155" frameX="0" frameY="0" frameWidth="126" frameHeight="156"/>
+</TextureAtlas>

@@ -1,0 +1,31 @@
+{
+	"song": {
+		"speed": 2,
+		"stage": "stage",
+		"player1": "bf-normal",
+		"player2": "gf",
+		"player3": "null",
+		"usePlayer3": null,
+		"events": [
+			[
+				62400,
+				[
+					[
+						"Play Animation",
+						"cheer",
+						"Dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 100,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"player3Layer": null,
+		"song": "Hell-tutorial"
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"storyName": "bonus week",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"brutal",
+			"disco-and-pico",
+			[
+				82,
+				36,
+				138
+			]
+		],
+		[
+			"nuketown",
+			"disco",
+			[
+				82,
+				36,
+				138
+			]
+		],
+		[
+			"purge",
+			"pico",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
+			"propapanda",
+			"panda",
+			[
+				215,
+				215,
+				215
+			]
+		],
+		[
+			"extended-sunday",
+			"mom-tootin",
+			[
+				154,
+				106,
+				241
+			]
+		],
+		[
+			"dundididun",
+			"evil-panda",
+			[
+				254,
+				20,
+				20
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week666",
+	"hiddenUntilUnlocked": false
+}

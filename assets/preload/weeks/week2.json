@@ -1,0 +1,50 @@
+{
+	"storyName": "spooky tooting",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"trree",
+			"senpai-pixel",
+			[
+				255,
+				60,
+				110
+			]
+		],
+		[
+			"b8llin",
+			"senpai-pixel",
+			[
+				255,
+				60,
+				110
+			]
+		],
+		[
+			"scased",
+			"spirit-pixel",
+			[
+				255,
+				60,
+				110
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week_2",
+	"hiddenUntilUnlocked": false
+}

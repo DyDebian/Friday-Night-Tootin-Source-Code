@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				40
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mom_idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				217,
+				44
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mom_right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				38
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mom_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				82
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mom_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				68,
+				20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mom_down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mom_tootin",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mom-tootin",
+	"flip_x": true,
+	"healthbar_colors": [
+		154,
+		106,
+		241
+	],
+	"camera_position": [
+		-50,
+		-70
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

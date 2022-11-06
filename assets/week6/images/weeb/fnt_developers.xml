@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fnt_developers.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="devpeople happy0000" x="0" y="0" width="300" height="106"/>
+	<SubTexture name="devpeople happy0001" x="0" y="0" width="300" height="106"/>
+	<SubTexture name="devpeople happy0002" x="300" y="0" width="300" height="106"/>
+	<SubTexture name="devpeople happy0003" x="300" y="0" width="300" height="106"/>
+	<SubTexture name="devpeople happy0004" x="0" y="106" width="300" height="106"/>
+	<SubTexture name="devpeople happy0005" x="0" y="106" width="300" height="106"/>
+	<SubTexture name="devpeople happy0006" x="300" y="106" width="300" height="106"/>
+	<SubTexture name="devpeople happy0007" x="300" y="106" width="300" height="106"/>
+	<SubTexture name="devpeople happy0008" x="0" y="212" width="300" height="106"/>
+	<SubTexture name="devpeople happy0009" x="0" y="212" width="300" height="106"/>
+	<SubTexture name="devpeople oh no0000" x="0" y="0" width="300" height="106"/>
+</TextureAtlas>

@@ -1,0 +1,59 @@
+{
+	"storyName": "the panda bar battle",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Nomnom",
+			"panda",
+			[
+				215,
+				215,
+				215
+			]
+		],
+		[
+			"Pamallah",
+			"panda",
+			[
+				215,
+				215,
+				215
+			]
+		],
+		[
+			"Pumpkin",
+			"panda",
+			[
+				215,
+				215,
+				215
+			]
+		],
+		[
+			"Bamboo",
+			"panda",
+			[
+				215,
+				215,
+				215
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "week6"
+}

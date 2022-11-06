@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BFTitleWhite.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BFTitle instance 10000" x="0" y="0" width="2250" height="2427" frameX="-128" frameY="0" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10001" x="0" y="0" width="2250" height="2427" frameX="-128" frameY="0" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10002" x="2250" y="0" width="2222" height="2268" frameX="-112" frameY="-89" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10003" x="2250" y="0" width="2222" height="2268" frameX="-112" frameY="-89" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10004" x="4472" y="0" width="2215" height="2236" frameX="-106" frameY="-101" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10005" x="4472" y="0" width="2215" height="2236" frameX="-106" frameY="-101" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10006" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10007" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10008" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10009" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10010" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10011" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10012" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10013" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+	<SubTexture name="BFTitle instance 10014" x="0" y="2427" width="2296" height="2233" frameX="0" frameY="-71" frameWidth="2378" frameHeight="2427"/>
+</TextureAtlas>

@@ -10,6 +10,7 @@ import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.system.FlxSound;
+import flixel.FlxSprite;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -18,6 +19,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollowPos:FlxObject;
 	var updateCamera:Bool = false;
 	var death_sound:FlxSound;
+	var help_image:FlxSprite;
 
 	var stageSuffix:String = "";
 
@@ -27,6 +29,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var endSoundName:String = 'gameOverEnd';
 	public static var timeToEnd:Float = 0.7;
 	public static var visibleChar:Bool = true;
+	public static var arthelp:Bool = false;
 
 	public static var instance:GameOverSubstate;
 
@@ -37,6 +40,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		endSoundName = 'gameOverEnd';
 		timeToEnd = 0.7;
 		visibleChar = true;
+		arthelp = false;
 	}
 
 	override function create()
@@ -54,6 +58,15 @@ class GameOverSubstate extends MusicBeatSubstate
 		PlayState.instance.setOnLuas('inGameOver', true);
 
 		Conductor.songPosition = 0;
+
+		if(arthelp)
+		{
+			help_image = new FlxSprite(0,0).loadGraphic(Paths.image('eyooo_panda_panda'));
+			help_image.setGraphicSize(Std.int(help_image.width * 1.2));
+			help_image.screenCenter();
+			help_image.scrollFactor.set(0.5,0.5);
+			add(help_image);
+		}
 
 		boyfriend = new Boyfriend(x, y, characterName);
 		boyfriend.x += boyfriend.positionArray[0];
@@ -129,7 +142,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		if (boyfriend.animation.curAnim.name == 'firstDeath')
 		{
-			if(boyfriend.animation.curAnim.curFrame >= 12 && !isFollowingAlready)
+			if(boyfriend.animation.curAnim.curFrame >= 12 && !isFollowingAlready && !arthelp)
 			{
 				FlxG.camera.follow(camFollowPos, LOCKON, 1);
 				updateCamera = true;

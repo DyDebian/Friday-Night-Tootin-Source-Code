@@ -115,8 +115,8 @@ function onStepHit()
         doTweenAlpha("tweeniconP2", 'iconP2', 1, 2, "linear");
         doTweenAlpha("tweenhealthBar", 'healthBar', 1, 2, "linear");
         doTweenAlpha("tweenscoreTxt", 'scoreTxt', 1, 2, "linear");
-        doTweenAlpha('bgtween','black',0.9,1,'Linear');
-        doTweenAlpha('gftween','gf',0.1,1,'Linear');
+        --doTweenAlpha('bgtween','black',0.9,1,'Linear');
+        --doTweenAlpha('gftween','gf',0.1,1,'Linear');
         if middlescroll == false then
             for i=0,3 do
                 noteTweenAlpha("movementAlpha " .. i, i, 1, 0.6, "linear");
@@ -126,6 +126,7 @@ function onStepHit()
                 noteTweenAlpha("movementAlpha " .. i, i, 0.35, 0.6, "linear");
             end
         end
+        doTweenAlpha('gftween','gf',1,1,'Linear');
     end
     if curStep == 252 then
         --removeLuaSprite('blackToTweenDad',true);
@@ -137,10 +138,13 @@ function onStepHit()
             noteTweenY("movementY " .. i, i, getPropertyFromGroup('strumLineNotes', i , 'y') + 100, 0.6, "linear");
         end
     end
+    if curStep == 256 then
+        doTweenAlpha('bgtween','black',0.9,1,'Linear');
+    end
     if curStep == 384 then
         setCamZoom('cam',1.2);
         doTweenAlpha('bgtween','black',0,1,'Linear');
-        doTweenAlpha('gftween','gf',1,1,'Linear');
+        --doTweenAlpha('gftween','gf',1,1,'Linear');
         changeSide(true);
     end
     if curStep == 896 then
@@ -166,8 +170,9 @@ function onStepHit()
         shakearrow3 = true;
         setCamZoom('cam',1.2);
         doTweenAlpha('bgtween','black',0.8,1,'Linear');
-        doTweenAlpha('gftween','gf',0.2,1,'Linear');
-        changeSide(false);
+        --doTweenAlpha('gftween','gf',0.2,1,'Linear');
+        --changeSide(false);
+        resetStaticArrows();
     end
     if curStep == 512 or curStep == 1280 then
         changeHudAngle = true;
@@ -216,8 +221,8 @@ function onStepHit()
         shakearrow3 = false;
         setCamZoom('cam',1.2);
         doTweenAlpha('bgtween','black',0,1,'Linear');
-        doTweenAlpha('gftween','gf',1,1,'Linear');
-        changeSide(true);
+        --doTweenAlpha('gftween','gf',1,1,'Linear');
+        --changeSide(true);
         resetStaticArrows();
     end
     if curStep == 736 or curStep == 864 then

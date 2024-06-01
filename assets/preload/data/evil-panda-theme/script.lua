@@ -1,6 +1,8 @@
 local defaultNotePos = {};
+local defaultZoom = 0.7;
 local beat = false;
 local shakearrow = false;
+local shakearrow2 = false;
 local hudmoveAngle = false;
 local shakehud = false;
 local DobleStaticNoteState = 0;
@@ -46,10 +48,23 @@ function onUpdate(elapsed)
     songPos = getPropertyFromClass('Conductor', 'songPosition');
     currentBeat = (songPos / 1000) * (bpm / 60);
 
-    if beat then
+    if beat then --505 570
         if curStep < 1216 then
+            --[[
+            if curStep < 512 then
+                setCamZoom('cam',0.98);
+                setCamZoom('hud',1.07);
+            elseif curStep < 700 then
+                setCamZoom('cam',1.08);
+                setCamZoom('hud',1.07);
+            elseif (curStep >= 960 and curStep < 992) or (curStep >= 1024 and curStep < 1056) then
+                setCamZoom('cam',1.08);
+                setCamZoom('hud',1.07);
+            --]]
+            --else
             setCamZoom('cam',0.78);
             setCamZoom('hud',1.07);
+            --end
         else
             setCamZoom('cam',0.79);
             setCamZoom('hud',0.90);--0.85
@@ -70,6 +85,15 @@ function onUpdate(elapsed)
         for i=0,7 do
             --setPropertyFromGroup('strumLineNotes', i, 'x', defaultNotePos[i + 1][1] + 32 * math.sin((currentBeat + i*0)))
             setPropertyFromGroup('strumLineNotes', i, 'y', defaultNotePos[i + 1][2] + 32 * math.cos((currentBeat + i*0) * math.pi))
+        end
+    end
+
+    if shakearrow2 then
+        for i=0,3 do
+            setPropertyFromGroup('strumLineNotes', i, 'y', defaultNotePos[i + 1][2] + 32 * math.cos((currentBeat + i*0) * math.pi))
+        end
+        for i=4,7 do
+            setPropertyFromGroup('strumLineNotes', i, 'y', defaultNotePos[i + 1][2] + 32 * math.cos((currentBeat + i*0.15) * math.pi))
         end
     end
 end
@@ -95,10 +119,13 @@ function onStepHit()
             end
         end
     end
+    if curStep == 320 then
+        setCamZoom('cam',1.2);
+    end
     if curStep == 384 then
         setCamZoom('cam',1.2);
-        doTweenAlpha('bgtween','black',0.8,1,'Linear');
-        doTweenAlpha('gftween','gf',0.8,1,'Linear');
+        --doTweenAlpha('bgtween','black',0.8,1,'Linear');
+        doTweenAlpha('gftween','gf',1,1,'Linear'); --0.8
     end
     if curStep == 440 then
         for i = 4,7 do
@@ -119,9 +146,18 @@ function onStepHit()
         doTweenAlpha('bftween','boyfriend',1,1,'Linear');
         doTweenAlpha("tweeniconP2", 'iconP1', 1, 1, "linear");
     end
+    if curStep == 448 then
+        doTweenAlpha('bgtween','black',0.8,1,'Linear');
+        setProperty('defaultCamZoom',0.9);
+    end
+    if curStep == 512 then
+        setProperty('defaultCamZoom',1.0);
+    end
     if curStep == 704 then
+        doTweenZoom('camtween','camGame',defaultZoom,0.4,'sineinout');
+        setProperty('defaultCamZoom',defaultZoom);
         doTweenAlpha('bgtween','black',0,1,'Linear');
-        doTweenAlpha('gftween','gf',1,1,'Linear');
+        --doTweenAlpha('gftween','gf',1,1,'Linear');
     end
     if ((curStep >= 704 and curStep <= 1088 or curStep >= 1216 and curStep <= 1472) and curStep % 4 == 0) then
         beat = true;
@@ -130,11 +166,18 @@ function onStepHit()
         beat = true;
     end
     if curStep == 1216 then
+        doTweenZoom('camtween','camGame',defaultZoom,0.4,'sineinout');
+        setProperty('defaultCamZoom',defaultZoom);
         setCamZoom('cam',0.9);
         shakearrow = true;
         hudmoveAngle = true;
     end
+    if curStep == 1344 then
+        shakearrow = false;
+        shakearrow2 = true;
+    end
     if curStep == 960 or curStep == 1024 or curStep == 1088 or curStep == 1152 or curStep == 1200 or curStep == 1176 then
+        setProperty('defaultCamZoom',1.0);
         setProperty('camHUD.angle', -5);
         shakehud = true;
     end
@@ -148,26 +191,26 @@ function onStepHit()
         setProperty('camHUD.angle', 20);
     end
     if curStep == 992 or curStep == 1056 or curStep == 1120 or curStep == 1216 then
+        setProperty('defaultCamZoom',defaultZoom);
         setProperty('camHUD.angle', 0);
         shakehud = false;
         setProperty('camHUD.x', 0);
         setProperty('camHUD.y', 0);
     end
     if curStep == 1472 then
-        shakearrow = false;
+        shakearrow2 = false;
         hudmoveAngle = false;
-        setProperty('camHUD.angle', 0);
         resetStaticArrows();
+        cameraShake('hud',0.15, 1);
+        setProperty('blackToTweenDad.alpha',1);
+        setProperty('iconP1.alpha', 0);
+        setProperty('camHUD.angle', 0);
     end
     if curStep >= 832 and curStep <= 958 and curStep % 4 == 0 then
         DobleStaticNotes();
     end
     if curStep == 959 then
         resetStaticArrows();
-    end
-    if curStep == 1472 then
-        setProperty('blackToTweenDad.alpha',1);
-        setProperty('iconP1.alpha', 0);
     end
 end
 

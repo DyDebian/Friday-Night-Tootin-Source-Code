@@ -885,10 +885,10 @@ class FunkinLua {
 		});
 		
 		Lua_helper.add_callback(lua, "cameraFlash", function(camera:String, color:String, duration:Float,forced:Bool) {
-			var colorNum:Int = Std.parseInt(color);
-			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xff' + color);
+			var colorNum:String = color;
+			if(!color.startsWith('#')) colorNum = ('#' + color);
 			if(ClientPrefs.flashing)
-				cameraFromString(camera).flash(colorNum, duration,null,forced);
+				cameraFromString(camera).flash(FlxColor.fromString(colorNum), duration,null,forced);
 		});
 		Lua_helper.add_callback(lua, "cameraFade", function(camera:String, color:String, duration:Float,forced:Bool) {
 			var colorNum:Int = Std.parseInt(color);

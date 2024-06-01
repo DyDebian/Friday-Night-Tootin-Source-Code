@@ -433,11 +433,13 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.endSoundName = 'pico_reincarnated_sound_effect';
 				GameOverSubstate.timeToEnd = 2.5;
 				GameOverSubstate.visibleChar = false;
+				GameOverSubstate.arthelp = true;
 			case 'panda_player':
 				GameOverSubstate.deathSoundName = 'panda_death_sound';
 				GameOverSubstate.loopSoundName = 'panda_death_music';
 				GameOverSubstate.endSoundName = 'panda_nothiness';
 				GameOverSubstate.visibleChar = false;
+				GameOverSubstate.arthelp = true;
 		}
 		var songName:String = Paths.formatToSongPath(SONG.song);
 
@@ -713,6 +715,8 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
 				GameOverSubstate.characterName = 'bf-pixel-dead';
+				GameOverSubstate.visibleChar = false;
+				GameOverSubstate.arthelp = true;
 
 				var bgSky:BGSprite = new BGSprite('weeb/weebSky', 0, 0, 0.1, 0.1);
 				add(bgSky);
@@ -782,6 +786,8 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
 				GameOverSubstate.characterName = 'bf-pixel-dead';
+				GameOverSubstate.visibleChar = false;
+				GameOverSubstate.arthelp = true;
 
 				/*if(!ClientPrefs.lowQuality) { //Does this even do something?, Idk but WiggleEffect yes --DyDebian
 					var waveEffectBG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 3, 2);
@@ -895,6 +901,8 @@ class PlayState extends MusicBeatState
 						grpLimoDancers.members[i].antialiasing = false;
 					}
 				}
+
+				if(SONG.song.toLowerCase() == 'miame') camZooming = true;
 
 		case 'picocity':
 				defaultCamZoom = 0.7;
@@ -1172,6 +1180,9 @@ class PlayState extends MusicBeatState
 						panda_health_limit_text.y += 166;
 						panda_health_limit_text.visible = false;
 						add(panda_health_limit_text);
+
+						GameOverSubstate.visibleChar = false;
+						GameOverSubstate.arthelp = true;
 					}
 
 					if(ClientPrefs.lowQuality)
@@ -5775,6 +5786,12 @@ class PlayState extends MusicBeatState
 		{
 			switch(curStep)
 			{
+				/*
+				case 384 | 416 | 448 | 480 | 512 | 544 | 576 | 608:
+					FlxG.camera.flash(FlxColor.fromRGB(255,255,255),2,null,true);
+				case 400 | 432 | 464 | 496 | 528 | 560 | 592 | 624:
+					FlxG.camera.flash(FlxColor.fromRGB(0,128,0),2,null,true);
+				*/
 				case 896:
 					FlxTween.tween(dad2, {alpha: 1}, 1);
 					dadacend = true;
@@ -5783,6 +5800,7 @@ class PlayState extends MusicBeatState
 				case 1024:
 					acenddir = "down";
 				case 1152:
+					FlxG.camera.flash(FlxColor.fromRGB(183,216,85),2,null,true);
 					offCine();
 			}
 			if(dad2.y > olddady)

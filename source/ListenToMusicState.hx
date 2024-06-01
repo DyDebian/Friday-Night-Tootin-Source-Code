@@ -47,6 +47,7 @@ class ListenToMusicState extends MusicBeatState
 	var loopSong:Bool = false;
 	var backed:Bool = false;
 	var curThing:FlxSound;
+	var mousePosition:Float;
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 
@@ -277,9 +278,11 @@ class ListenToMusicState extends MusicBeatState
 			loadSong();
 		}
 
-		if(FlxG.mouse.overlaps(songPosBG) && FlxG.mouse.justPressed && (voices != null || insts != null))
+		if(FlxG.mouse.overlaps(songPosBG) && FlxG.mouse.pressed && (voices != null || insts != null))
 		{
-			var mousePosition:Float = (FlxG.mouse.x/FlxG.width/songPosBG.x)-(FlxG.mouse.x/songPosBG.width)+0.5569120156571 + 0.0146757467614513; //this is not the best way to get this value and probably the dumbest way but it works
+			//var mousePosition:Float = (FlxG.mouse.x/FlxG.width/songPosBG.x)-(FlxG.mouse.x/songPosBG.width)+0.5569120156571 + 0.0146757467614513; //this is not the best way to get this value and probably the dumbest way but it works
+			//mousePosition = (FlxG.mouse.x - songPosBG.x)/(songPosBG.width); //More accurate
+			mousePosition = (FlxG.mouse.x - songPosBar.x)/(songPosBar.width); //100% accurate
 			if(inst)
 			{
 				curThing = insts;
@@ -291,7 +294,12 @@ class ListenToMusicState extends MusicBeatState
 			#if debug
 			trace(mousePosition);
 			#end
-			curThing.time = Math.abs(mousePosition)*curThing.length;
+			//curThing.time = Math.abs(mousePosition)*curThing.length;
+			songPos = curThing.length*mousePosition;
+		}
+		else if(FlxG.mouse.overlaps(songPosBG) && FlxG.mouse.justReleased && (voices != null || insts != null))
+		{
+			curThing.time = curThing.length*mousePosition;
 			if(inst)
 			{
 				voices.time = insts.time;
